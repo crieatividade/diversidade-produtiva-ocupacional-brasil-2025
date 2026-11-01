@@ -1,6 +1,6 @@
 # Diversidade produtiva e ocupacional nos territórios brasileiros (2025)
 
-**Material científico preliminar, não oficial.** Análise exploratória nacional preparada no contexto da pesquisa e do Atlas Territorial do [Crieatividade.org](https://crieatividade.org/). Versão de preparação G3B, 1º de novembro de 2026.
+**Repositório público de material científico preliminar, não oficial.** Análise exploratória nacional preparada no contexto da pesquisa e do Atlas Territorial do [Crieatividade.org](https://crieatividade.org/). Documentação atualizada em 1º de novembro de 2026; resultados de natureza exploratória.
 
 **Pergunta:** em que medida a diversidade de atividades econômicas está associada à diversidade ocupacional das unidades territoriais brasileiras, considerando porte do emprego formal e UF?
 
@@ -40,8 +40,12 @@ As associações não são causais. Estes índices não medem diretamente compet
 - `codigo/`: script científico e verificação de reprodutibilidade.
 - `figuras/`: três figuras.
 - `resultados/`: resultados completos em JSON.
-- `metodologia/`: auditoria nacional, proveniência, limitações e referências.
+- `metodologia/`: auditoria nacional, proveniência, limitações, referências e guia pedagógico de leitura (Shannon, HHI, RAIS, CNAE e CBO).
 - `SHA256SUMS.json`: integridade dos principais arquivos.
+
+## Guia pedagógico
+
+Para compreender passo a passo as siglas, as classificações, os cálculos de Shannon e HHI, a interpretação das correlações e as limitações, consulte [`metodologia/CRIE_G3E_Guia_de_Leitura_e_Glossario_v01.md`](metodologia/CRIE_G3E_Guia_de_Leitura_e_Glossario_v01.md). Esse material complementa o artigo e não substitui os dados nem os procedimentos científicos.
 
 ## Fonte oficial e citação
 

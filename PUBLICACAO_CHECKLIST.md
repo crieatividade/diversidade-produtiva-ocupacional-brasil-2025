@@ -1,12 +1,27 @@
-# G3B | Antes de tornar público
+# G4C | Acompanhamento da publicação científica
 
-1. Conferir as 5.571 linhas e a ausência de registros individuais de trabalhadores.
-2. Confirmar a cadeia de origem, os filtros e as permissões de redistribuição dos agregados RAIS; a diferença de 717.759 vínculos permanece sem explicação.
-3. Escolher licença adequada para o script original e documentação, sem aplicar licença própria sobre direitos de terceiros.
-4. No GitHub autenticado como `crieatividade`, criar repositório `diversidade-produtiva-ocupacional-brasil-2025`, inicialmente **privado**, com opção de não criar README automático.
-5. Descompactar o ZIP e subir **os arquivos e diretórios**, não o ZIP como arquivo único.
-6. Conferir README, dados, script, resultados e os arquivos sem credenciais/dumps/código PHP.
-7. Quando aprovado, ajustar a visibilidade para público e testar a URL em janela anônima.
-8. Acrescentar o endereço público na seção Disponibilidade dos dados e código do manuscrito; conferir edição e enviar ao Moodle até 03/11/2026, 23h59.
+**Atualização:** 1º de novembro de 2026. Este documento registra o estado de cada etapa, não é uma declaração de validação externa da fonte.
 
-Obs.: o arquivo DOCX do manuscrito **não integra esta versão do repositório** porque ainda está sob revisão e não foi submetido. Ele permanece no pacote científico interno.
+## Etapas realizadas
+
+- [x] Repositório `crieatividade/diversidade-produtiva-ocupacional-brasil-2025` criado.
+- [x] Arquivos de código Python, dados agregados, resultados, figuras e documentação enviados.
+- [x] Repositório tornado público pelo responsável.
+- [x] Arquivos públicos de README, código e proveniência conferidos.
+- [x] Estatísticas derivadas do CSV reproduzidas; auditoria matemática interna de Shannon e HHI documentada.
+- [x] Guia pedagógico de leitura preparado para inclusão em `metodologia/`.
+
+## Questões abertas e responsabilidades
+
+- [ ] Identificar os arquivos oficiais exatos de origem e filtros utilizados no processamento da RAIS 2025.
+- [ ] Explicar ou reconciliar a diferença de 717.759 vínculos entre o release interno e o sumário executivo MTE.
+- [ ] Documentar a base jurídica e os direitos de redistribuição do conjunto derivado; não presumir uma licença sobre dados de terceiros.
+- [ ] Escolher explicitamente a licença do código e da documentação, se desejada.
+- [ ] Confirmar que a versão final do artigo contém o endereço público do repositório, referências fiéis e declaração de uso de IA.
+- [ ] Revisar o manuscrito e submetê-lo ao Moodle até 03/11/2026 às 23h59.
+
+## Limites de reprodução
+
+O repositório permite reproduzir os resultados a partir do CSV público, mas não contém as matrizes completas CNAE/CBO nem os arquivos oficiais originais necessários à repetição integral da importação e da auditoria matemática das células. A verificação interna dos indicadores não constitui conciliação externa com o MTE.
+
+**Repositório:** https://github.com/crieatividade/diversidade-produtiva-ocupacional-brasil-2025
