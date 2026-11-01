@@ -1,0 +1,455 @@
+{
+  "n": 5571,
+  "raw_sha256": "020ef3b87bfb0d07ba07e9b3e5e0b9dedc506640bc3bf81df57fdf5cc326d6b7",
+  "jobs_total": 60688704,
+  "jobs_min": 102,
+  "jobs_max": 5516458,
+  "divisoes_minmax": [
+    1,
+    87
+  ],
+  "ocupacoes_minmax": [
+    11,
+    48
+  ],
+  "medians": {
+    "empregos_formais": 1641.0,
+    "divisoes_produtivas": 29.0,
+    "subgrupos_ocupacionais": 33.0,
+    "productive_shannon": 1.9227461517,
+    "occupational_shannon": 2.6553323263,
+    "productive_hhi": 0.2439604447,
+    "occupational_hhi": 0.1022456096,
+    "equiv_divisoes": 6.839715599161025,
+    "equiv_ocupacoes": 14.229714181911392
+  },
+  "means": {
+    "productive_shannon": 1.8792845422008435,
+    "occupational_shannon": 2.6038457408760185,
+    "productive_hhi": 0.31446082501059053,
+    "occupational_hhi": 0.11679359886122778
+  },
+  "correlations": {
+    "pearson_raw": 0.7603353076138918,
+    "pearson_p": 0.0,
+    "spearman_raw": 0.7890332114295096,
+    "spearman_p": 0.0,
+    "pearson_partial_logjobs_UF": 0.5652371156836306,
+    "pearson_with_logjobs_prod": 0.6804397246883434,
+    "pearson_with_logjobs_ocup": 0.42417090858947926,
+    "pearson_hhi": 0.59300848282345
+  },
+  "regression": {
+    "spec": "Shannon_occ ~ Shannon_prod + ln(empregos) + ln(empregos)^2 + UF fixed effects",
+    "beta_prod": 0.27872986183587634,
+    "se_HC3": 0.0069317570287949605,
+    "p_HC3": 0.0,
+    "ci_HC3": [
+      0.2651438677098558,
+      0.29231585596189685
+    ],
+    "se_cluster_UF": 0.011184438684644573,
+    "p_cluster_UF": 4.381666719585796e-137,
+    "ci_cluster_UF": [
+      0.2568087648266764,
+      0.30065095884507625
+    ],
+    "r_squared": 0.6286862635484762,
+    "rmse": 0.16945283977208866,
+    "beta_prod_linear_logjobs_UF": 0.27901846425072785,
+    "se_linear_HC3": 0.006546976840516711
+  },
+  "checks": {
+    "missing": {
+      "empregos_formais": 0,
+      "remuneracao_media": 0,
+      "divisoes_produtivas": 0,
+      "subgrupos_ocupacionais": 0,
+      "productive_hhi": 0,
+      "productive_shannon": 0,
+      "occupational_hhi": 0,
+      "occupational_shannon": 0,
+      "estabelecimentos": 5571
+    },
+    "duplicates": 0,
+    "years": [
+      "2025"
+    ],
+    "uf_count": 27,
+    "hhi_bounds": {
+      "productive_hhi": 0,
+      "occupational_hhi": 0
+    },
+    "shannon_bounds": {
+      "productive": 0,
+      "occupational": 0
+    },
+    "hhi_min_possible": {
+      "productive": 0,
+      "occupational": 0
+    },
+    "zero_or_negative_employment": 0,
+    "remuneracao_lt_500": 16
+  },
+  "robustness": {
+    "thresholds": {
+      "0": {
+        "n": 5571,
+        "pearson": 0.7603353076138918,
+        "spearman": 0.7890332114295096
+      },
+      "1000": {
+        "n": 3641,
+        "pearson": 0.7890338976211677,
+        "spearman": 0.773997372148599
+      },
+      "5000": {
+        "n": 1265,
+        "pearson": 0.7514334579073799,
+        "spearman": 0.6615176049266146
+      },
+      "10000": {
+        "n": 742,
+        "pearson": 0.720599068742835,
+        "spearman": 0.5882930970641359
+      },
+      "20000": {
+        "n": 417,
+        "pearson": 0.647285090498221,
+        "spearman": 0.534053508021702
+      }
+    },
+    "hhi": {
+      "n": 5571,
+      "pearson": 0.59300848282345,
+      "spearman": 0.6869345432123654
+    },
+    "entropy_normalized": {
+      "n": 5570,
+      "pearson": 0.47791501239757816,
+      "spearman": 0.4157010672689653
+    },
+    "regions": {
+      "Centro-Oeste": {
+        "n": 468,
+        "pearson": 0.5981579411959449,
+        "spearman": 0.6391596620750636
+      },
+      "Nordeste": {
+        "n": 1794,
+        "pearson": 0.6765615932088007,
+        "spearman": 0.7214881952041202
+      },
+      "Norte": {
+        "n": 450,
+        "pearson": 0.7964726751248977,
+        "spearman": 0.8282064273568429
+      },
+      "Sudeste": {
+        "n": 1668,
+        "pearson": 0.6870191870360832,
+        "spearman": 0.7173920733955205
+      },
+      "Sul": {
+        "n": 1191,
+        "pearson": 0.5924739552343162,
+        "spearman": 0.6318668068718536
+      }
+    },
+    "ufs": {
+      "AC": {
+        "n": 22,
+        "pearson": 0.7900033097156075,
+        "spearman": 0.6589497459062676
+      },
+      "AL": {
+        "n": 102,
+        "pearson": 0.6495771978379602,
+        "spearman": 0.6625634008289464
+      },
+      "AM": {
+        "n": 62,
+        "pearson": 0.7242387251201134,
+        "spearman": 0.5755332275691873
+      },
+      "AP": {
+        "n": 16,
+        "pearson": 0.6126668389579246,
+        "spearman": 0.6352941176470589
+      },
+      "BA": {
+        "n": 417,
+        "pearson": 0.6837264480038594,
+        "spearman": 0.6930320484135327
+      },
+      "CE": {
+        "n": 184,
+        "pearson": 0.7719577429683925,
+        "spearman": 0.7910230972240951
+      },
+      "DF": {
+        "n": 1,
+        "pearson": null,
+        "spearman": null
+      },
+      "ES": {
+        "n": 78,
+        "pearson": 0.4572992194321264,
+        "spearman": 0.4841108258829777
+      },
+      "GO": {
+        "n": 246,
+        "pearson": 0.6135338143157664,
+        "spearman": 0.6392912057683742
+      },
+      "MA": {
+        "n": 217,
+        "pearson": 0.756199405060842,
+        "spearman": 0.7690802670086483
+      },
+      "MG": {
+        "n": 853,
+        "pearson": 0.7033027187280227,
+        "spearman": 0.7391135388813188
+      },
+      "MS": {
+        "n": 79,
+        "pearson": 0.7671769868742149,
+        "spearman": 0.7427702044790654
+      },
+      "MT": {
+        "n": 142,
+        "pearson": 0.7414451293489096,
+        "spearman": 0.7638178423314774
+      },
+      "PA": {
+        "n": 144,
+        "pearson": 0.8098349425937373,
+        "spearman": 0.8591110039385901
+      },
+      "PB": {
+        "n": 223,
+        "pearson": 0.5548375480585725,
+        "spearman": 0.6782998164724621
+      },
+      "PE": {
+        "n": 185,
+        "pearson": 0.6421437347941751,
+        "spearman": 0.7112315681740646
+      },
+      "PI": {
+        "n": 224,
+        "pearson": 0.6891786010928647,
+        "spearman": 0.7061968823403802
+      },
+      "PR": {
+        "n": 399,
+        "pearson": 0.5942893179184703,
+        "spearman": 0.624248875958741
+      },
+      "RJ": {
+        "n": 92,
+        "pearson": 0.5521115600404246,
+        "spearman": 0.5192731532142472
+      },
+      "RN": {
+        "n": 167,
+        "pearson": 0.6285591480040508,
+        "spearman": 0.6324347861935338
+      },
+      "RO": {
+        "n": 52,
+        "pearson": 0.6268775483042834,
+        "spearman": 0.6628532399897549
+      },
+      "RR": {
+        "n": 15,
+        "pearson": 0.7363175852730175,
+        "spearman": 0.5928571428571427
+      },
+      "RS": {
+        "n": 497,
+        "pearson": 0.6335852745975616,
+        "spearman": 0.6965625857750467
+      },
+      "SC": {
+        "n": 295,
+        "pearson": 0.49859791658963387,
+        "spearman": 0.5220250170613367
+      },
+      "SE": {
+        "n": 75,
+        "pearson": 0.7489518504331071,
+        "spearman": 0.8222190611664295
+      },
+      "SP": {
+        "n": 645,
+        "pearson": 0.6563458576432378,
+        "spearman": 0.6891242410433386
+      },
+      "TO": {
+        "n": 139,
+        "pearson": 0.5459937092183716,
+        "spearman": 0.635729925376469
+      }
+    }
+  },
+  "positive_residuals_5000plus": [
+    {
+      "ibge": "1303536",
+      "municipio": "Presidente Figueiredo",
+      "uf": "AM",
+      "empregos": 6617,
+      "residual": 0.4318
+    },
+    {
+      "ibge": "2100055",
+      "municipio": "Açailândia",
+      "uf": "MA",
+      "empregos": 21542,
+      "residual": 0.4287
+    },
+    {
+      "ibge": "1300706",
+      "municipio": "Boca do Acre",
+      "uf": "AM",
+      "empregos": 6494,
+      "residual": 0.4068
+    },
+    {
+      "ibge": "1508126",
+      "municipio": "Ulianópolis",
+      "uf": "PA",
+      "empregos": 5192,
+      "residual": 0.378
+    },
+    {
+      "ibge": "1502772",
+      "municipio": "Curionópolis",
+      "uf": "PA",
+      "empregos": 5126,
+      "residual": 0.3764
+    },
+    {
+      "ibge": "2308401",
+      "municipio": "Missão Velha",
+      "uf": "CE",
+      "empregos": 5873,
+      "residual": 0.3738
+    },
+    {
+      "ibge": "5218508",
+      "municipio": "Quirinópolis",
+      "uf": "GO",
+      "empregos": 14823,
+      "residual": 0.3669
+    },
+    {
+      "ibge": "2929206",
+      "municipio": "São Francisco do Conde",
+      "uf": "BA",
+      "empregos": 7647,
+      "residual": 0.3552
+    }
+  ],
+  "negative_residuals_5000plus": [
+    {
+      "ibge": "3549953",
+      "municipio": "São Lourenço da Serra",
+      "uf": "SP",
+      "empregos": 5070,
+      "residual": -0.6843
+    },
+    {
+      "ibge": "4313060",
+      "municipio": "Nova Hartz",
+      "uf": "RS",
+      "empregos": 7282,
+      "residual": -0.605
+    },
+    {
+      "ibge": "3529906",
+      "municipio": "Miracatu",
+      "uf": "SP",
+      "empregos": 5986,
+      "residual": -0.5823
+    },
+    {
+      "ibge": "2614857",
+      "municipio": "Tamandaré",
+      "uf": "PE",
+      "empregos": 6274,
+      "residual": -0.5071
+    },
+    {
+      "ibge": "4206009",
+      "municipio": "Governador Celso Ramos",
+      "uf": "SC",
+      "empregos": 7297,
+      "residual": -0.498
+    },
+    {
+      "ibge": "1303700",
+      "municipio": "Santo Antônio do Içá",
+      "uf": "AM",
+      "empregos": 5355,
+      "residual": -0.4825
+    },
+    {
+      "ibge": "4316006",
+      "municipio": "Rolante",
+      "uf": "RS",
+      "empregos": 8070,
+      "residual": -0.4525
+    },
+    {
+      "ibge": "4212106",
+      "municipio": "Palmitos",
+      "uf": "SC",
+      "empregos": 6713,
+      "residual": -0.4494
+    }
+  ],
+  "regions": {
+    "Centro-Oeste": {
+      "n": 468,
+      "jobs": 6028172,
+      "avg_prod": 2.113324580448077,
+      "avg_ocup": 2.6644142366104697,
+      "weighted_prod": 2.7433106479089275,
+      "weighted_ocup": 2.806837443844082
+    },
+    "Nordeste": {
+      "n": 1794,
+      "jobs": 11822766,
+      "avg_prod": 1.344846338921126,
+      "avg_ocup": 2.4204251562138244,
+      "weighted_prod": 2.5813978809753313,
+      "weighted_ocup": 2.7112323673651493
+    },
+    "Norte": {
+      "n": 450,
+      "jobs": 3911021,
+      "avg_prod": 1.5193849835146669,
+      "avg_ocup": 2.4993326683322223,
+      "weighted_prod": 2.48675008525585,
+      "weighted_ocup": 2.718960005989275
+    },
+    "Sudeste": {
+      "n": 1668,
+      "jobs": 28764393,
+      "avg_prod": 2.175188030631175,
+      "avg_ocup": 2.7125155540480814,
+      "weighted_prod": 3.1279880803984175,
+      "weighted_ocup": 2.8703292831512557
+    },
+    "Sul": {
+      "n": 1191,
+      "jobs": 10162352,
+      "avg_prod": 2.313910219355416,
+      "avg_ocup": 2.7436275268994965,
+      "weighted_prod": 3.030042664495664,
+      "weighted_ocup": 2.8496195967554914
+    }
+  }
+}

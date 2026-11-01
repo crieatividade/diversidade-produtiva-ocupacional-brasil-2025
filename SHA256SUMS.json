@@ -1,0 +1,14 @@
+{
+  "dados/m.csv": "020ef3b87bfb0d07ba07e9b3e5e0b9dedc506640bc3bf81df57fdf5cc326d6b7",
+  "dados/base_analitica_2025.csv": "42fbed38bded8843c96d67548927fe666562a922812bd74e6686adf673763a0b",
+  "codigo/CRIE_analise_diversidade_2025.py": "ace2c53b2a4755590031dc4b0d42a58f08f37231dda31baa699705a365251b60",
+  "codigo/verificar_reproducao.py": "79b24ff344c56c47972ee6b11c01a9213cd4bbc3bde0fcefde8236e16b15fdde",
+  "resultados/resultados.json": "ad2a928cdf8bec111efb757ee2aa266a9d94d2facde06ffce4036094d9f0d30d",
+  "figuras/figura1_diversidade_nacional.png": "c9c6719153daa641e1cad62daf641dd8226cf66decb35005864e8242beb983b5",
+  "figuras/figura2_residuos_condicionais.png": "204049214ff13c67739f68284486373ea14b5b025fdca7b3e517b594862d2e33",
+  "figuras/figura3_macrorregioes.png": "02b976f5c1557dde520a64d1dabf68b4f5c70060fbd829b7fd4f8690574bb4cf",
+  "metodologia/CRIE_G2D_Auditoria_Nacional_2025_v01.md": "9a9b3eae0c02fd8deb7c9c582da3ceca76bf2491e22a5dcdc76ab6197ec35c36",
+  "metodologia/PROVENIENCIA_E_LIMITACOES.md": "7114a7f40bb8927a79cefa8e9f3e8a40708eb1427f57e354bef4a28d3ba8a841",
+  "metodologia/REVISAO_REFERENCIAS.md": "0cb736e32a2fb8145e30031dd3a2ad95383f739eeb43256ec6571a978484e2e9",
+  "requirements.txt": "5997203c6a30bd69e973da89dd4b0102a35f425077b5c42abe6992d352aae9e4"
+}
